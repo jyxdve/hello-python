@@ -1,6 +1,6 @@
 import sys
 
-windintensity = float(sys.argv[1])
+windintensity = int(sys.argv[1])
 
 if  windintensity >= 220:
     print("Category: Super Typhoon")
