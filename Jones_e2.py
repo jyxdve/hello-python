@@ -1,14 +1,14 @@
 import sys
 
-WindIntensity= float(sys.argv[1])
+windintensity= float(sys.argv[1])
 
-if  WindIntensity >= 220:
+if  windintensity >= 220:
     print("Super Typhoon")
-elif WindIntensity >= 118 or  WindIntensity == 219.99:
+elif windintensity >= 118.99 or  windintensity == 219.99:
     print("Typhoon")
-elif WindIntensity >= 89 or   WindIntensity == 117.99:
+elif windintensity >= 89.99 or   windintensity == 117.99:
     print("Severe Tropical Strorm")
-elif WindIntensity >= 62 or   WindIntensity == 88.99:
+elif windintensity >= 62.99 or   windintensity == 88.99:
     print("Tropical Storm")
 else:
     print("Tropical Depression")
